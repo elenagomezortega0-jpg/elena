@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<p>hola mundo</p>  
-  <figure>
-            <picture>
-                <source srcset="img/foto-grande.webp" media="(min-width: 450px)">
-                <source srcset="img/foto-mediana.webp" media="(min-width: 250px)">
-                <img src="img/fotopeque.webp"Vista optimizada del contenido usando imágenes adaptativas"
-                    loading="lazy">
-            </picture>
-            <figcaption>Imagen responsive optimizada con WebP y carga diferida.</figcaption>
-        </figure>
+    <p>hola mundo</p>
+    <figure>
+        <picture>
+            <source srcset="img/foto-grande.webp" media="(min-width: 450px)">
+            <source srcset="img/foto-mediana.webp" media="(min-width: 250px)">
+            <img src="img/fotopeque.webp" Vista optimizada del contenido usando imágenes adaptativas" loading="lazy">
+        </picture>
+        <figcaption>Imagen responsive optimizada con WebP y carga diferida.</figcaption>
+    </figure> 
+    <video width="320" height="240" controls>
+        <source src="video/video.mp4" type="video/mp4">
+       
+        <track src="video/sub.vtt" kind="subtitles" srclang="en" label="English">
+       
+    </video>
+
 </body>
+
 </html>
